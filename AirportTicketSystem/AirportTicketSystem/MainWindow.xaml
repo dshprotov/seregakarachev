@@ -1,0 +1,40 @@
+﻿<Window x:Class="AirportTicketSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Airport Ticket System" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список рейсов -->
+        <ListView Grid.Column="0" Margin="10" Name="FlightsListView" SelectionMode="Single" SelectionChanged="FlightsListView_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Flight Number" Width="120" DisplayMemberBinding="{Binding FlightNumber}" />
+                    <GridViewColumn Header="Departure City" Width="120" DisplayMemberBinding="{Binding DepartureCity}" />
+                    <GridViewColumn Header="Destination City" Width="120" DisplayMemberBinding="{Binding DestinationCity}" />
+                    <GridViewColumn Header="Departure Time" Width="120" DisplayMemberBinding="{Binding DepartureTime}" />
+                    <GridViewColumn Header="Price" Width="80" DisplayMemberBinding="{Binding Price}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Информация о выбранном рейсе -->
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBlock Text="Flight Details" FontWeight="Bold" FontSize="16" Margin="0 0 0 10" />
+            <TextBlock Text="Flight Number:" />
+            <TextBox Name="FlightNumberTextBox" Width="200" IsReadOnly="True" Margin="0 0 0 10" />
+            <TextBlock Text="Departure City:" />
+            <TextBox Name="DepartureCityTextBox" Width="200" IsReadOnly="True" Margin="0 0 0 10" />
+            <TextBlock Text="Destination City:" />
+            <TextBox Name="DestinationCityTextBox" Width="200" IsReadOnly="True" Margin="0 0 0 10" />
+            <TextBlock Text="Departure Time:" />
+            <TextBox Name="DepartureTimeTextBox" Width="200" IsReadOnly="True" Margin="0 0 0 10" />
+            <TextBlock Text="Price:" />
+            <TextBox Name="PriceTextBox" Width="200" IsReadOnly="True" Margin="0 0 0 10" />
+            <Button Content="Buy Ticket" Click="BuyTicketButton_Click" Width="100" />
+        </StackPanel>
+    </Grid>
+</Window>

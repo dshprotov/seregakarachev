@@ -1,0 +1,14 @@
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\bin\Debug\AirportTicketSystem.exe.config
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\bin\Debug\AirportTicketSystem.exe
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\bin\Debug\AirportTicketSystem.pdb
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.csproj.AssemblyReference.cache
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\MainWindow.baml
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\MainWindow.g.cs
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\App.g.cs
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem_MarkupCompile.cache
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.g.resources
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.Properties.Resources.resources
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.csproj.GenerateResource.cache
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.csproj.CoreCompileInputs.cache
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.exe
+C:\Users\ygwex\source\repos\MemoryGameApp\AirportTicketSystem\AirportTicketSystem\obj\Debug\AirportTicketSystem.pdb
